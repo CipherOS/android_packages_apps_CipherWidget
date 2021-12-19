@@ -1,4 +1,4 @@
-package me.waveproject.widget
+package com.cipheros.widget
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -11,7 +11,7 @@ import android.widget.RemoteViews
 /**
  * Implementation of App Widget functionality.
  */
-class WaveWidgetProvider : AppWidgetProvider() {
+class CipherWidgetProvider : AppWidgetProvider() {
     override fun onUpdate(
         context: Context,
         appWidgetManager: AppWidgetManager,
